@@ -11,3 +11,6 @@
 - Created public GitHub repository `shubodaya/mini-game`.
 - Enabled GitHub Pages from the `main` branch root.
 - Verified the live site returned HTTP 200 at `https://shubodaya.github.io/mini-game/`.
+- Added Easy, Medium, and Hard difficulty levels.
+- Made the target move automatically at difficulty-specific intervals: 1400ms, 900ms, and 550ms.
+- Difficulty changes restart the round so timing and score remain consistent.

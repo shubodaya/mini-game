@@ -9,6 +9,8 @@ A simple browser click-the-target game built with HTML, CSS, and JavaScript.
 - 30 second countdown timer
 - Final score screen
 - Restart button
+- Easy, Medium, and Hard difficulty levels
+- Faster automatic target movement on higher difficulties
 - Responsive layout for desktop and mobile browsers
 
 ## Run
@@ -34,3 +36,11 @@ node --check .\script.js
 - `script.js` - Timer, scoring, target placement, and restart logic.
 - `NOTES.md` - Project diary.
 - `TODO.md` - Remaining tasks and future improvements.
+
+## Difficulty
+
+- Easy moves the target every 1.4 seconds.
+- Medium moves the target every 0.9 seconds.
+- Hard moves the target every 0.55 seconds.
+
+Changing difficulty starts a fresh round with the selected speed.
