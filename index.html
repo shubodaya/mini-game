@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mini Game</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="game-shell">
+      <section class="game" aria-labelledby="game-title">
+        <header class="game__header">
+          <div>
+            <p class="eyebrow">Mini Game</p>
+            <h1 id="game-title">Click the Target</h1>
+          </div>
+          <button class="button" id="restartButton" type="button">Restart</button>
+        </header>
+
+        <section class="scoreboard" aria-label="Game status">
+          <div class="stat">
+            <span class="stat__label">Score</span>
+            <strong class="stat__value" id="score">0</strong>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Time</span>
+            <strong class="stat__value" id="time">30</strong>
+          </div>
+        </section>
+
+        <section class="arena" id="arena" aria-label="Click target arena">
+          <button class="target" id="target" type="button" aria-label="Target"></button>
+          <div class="game-over" id="gameOver" hidden>
+            <p class="game-over__label">Final Score</p>
+            <strong class="game-over__score" id="finalScore">0</strong>
+            <button class="button button--primary" id="playAgainButton" type="button">Play Again</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
